@@ -6,6 +6,9 @@ const uint8_t THROTTLE_PIN = A0;
 const uint8_t YAW_PIN = A1;
 const uint8_t PITCH_PIN = A2;
 const uint8_t ROLL_PIN = A3;
+const uint8_t Acc1 = A4;
+const uint8_t Acc2 = A5;
+const uint8_t Acc3 = 0;
 
 //Holds the Min, mid and max value reading from pots
 const int t_states[3] = { 0, 511, 1023 };
